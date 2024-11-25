@@ -21,3 +21,9 @@ Training is slow without a GPU, The amount of training data makes it slow no mat
 
 # Results
 The project competition was on Kaggle, where we got a 130 in score, with lower beeing better. Most other boosting algorithms hovered around 70-150. I also trained an XGboost model, and got a score of 85, which is why this Transformer model was not submitted. It was dissapointing as it took some time to make it work correctly, but on the bright side the predictions generated are far more realistic.
+
+Transformer predictions   (red)
+![transformer](predictions_transformer.png)
+
+Comparative boosting predictions (red)
+![XGboost](predictions_xgboost.png)
